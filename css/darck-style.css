@@ -1,0 +1,1110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #252525;
+    height: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* ===================================== */
+/* start nav style  */
+.navbar{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.navbar .contenar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+
+.navbar .contenar .logo{
+    display: flex;
+    color: #fff;
+}
+.navbar .contenar .logo h1 span{
+    color: red;
+}
+
+.navbar .contenar .naves{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.navbar .contenar .naves ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.navbar .contenar .naves ul li{
+    margin: 20px 15px;
+}
+.navbar .contenar .naves ul li a{
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 20px;
+    transition: all .8s;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+}
+
+.navbar .contenar .naves ul li a:hover{
+    color: #ffffff;
+}
+
+.navbar .contenar .naves ul li a::before{
+    content: "";
+    border-bottom: solid 3px gold;
+    position: relative;
+    top: 30px;
+    left: -50px;
+    display: none;
+    transition: all .1s;
+}
+.navbar .contenar .naves ul li:hover a::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0px;
+}
+
+.navbar .contenar .ligh a i{
+    font-size: 25px;
+    color: #ffffff;
+}
+/* ====================================== */
+.Home{
+
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.Home .content {
+width: 100%;
+padding-left: 100px;
+}
+
+.Home .content h2{
+    color: #ffffff;
+    font-size: 65px;
+    width: 550px;
+    margin-top: 150px;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+}
+.Home .content p{
+    color: #ffffffb5;
+    width: 450px;
+    font-size: 16px;
+    padding: 25px 0px;
+}
+
+
+
+
+
+
+.Home .content .btt {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.Home .content .btt .book a{
+    background-color: #c17e1f;
+    width:150px ;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 0px 50px 50px 50px;
+    transition: all .8s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home .content .btt .book a:hover{
+    background-color: #ec9824;
+}
+
+
+.Home .content .btt .play a{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: #fffcfc;
+    font-size: 20px;
+    transition: all .5s;
+
+}
+
+.Home .content .btt .play a i{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #000000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+    margin-right:10px ;
+    
+}
+
+.Home .content .btt .play a:hover{
+    color: #c17e1f;
+}
+.Home .content .btt .play a:hover i{
+    color: #c17e1f;
+}
+
+
+
+.Home .img img{
+    width: 550px;
+}
+
+.Home .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 150px 0px 0px;
+}
+.Home .img:hover{
+    animation-name: zz;
+    animation-duration: .25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes zz {
+    from{
+        position: relative;
+        top: 1px;
+        left: 1px;
+        right: 1px;
+        bottom: 1px;
+    }
+
+    to{
+        position: relative;
+        top: 10px;
+        left: 5px;
+        right: 5px;
+        bottom: 10px;
+    }
+}
+
+
+/* ======================================= */
+/* ===================== */
+.Chefs{
+    background-color:#252525;
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.Chefs .contenar {
+    background-color: #252525;
+    width: 90%;
+    text-align: center;
+}
+.Chefs .contenar .content p{
+    color: #7f7f90;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+}
+
+.Chefs .contenar .content h2{
+    color: #ffffff;
+    font-size: 50px;
+    padding: 20px 0px 50px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+}
+.Chefs .contenar .content h2 span{
+    color: #c17e1f;
+}
+
+.Chefs .contenar .img{
+    width: 95%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    align-content:flex-end;
+    margin: auto;
+    position: relative;
+    left: 90px;
+
+}
+
+.Chefs .contenar .img .img3,
+.Chefs .contenar .img .img2,
+.Chefs .contenar .img .img1 {
+    background-color:#000000 ;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Chefs .contenar .img .img3,
+.Chefs .contenar .img .img2,
+.Chefs .contenar .img .img1{
+    overflow: hidden;
+    transition:all .2s ease-out;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 0px #000000;;
+}
+
+
+.Chefs .contenar .img .img1:hover{
+    transform: scale(1.05);
+}
+.Chefs .contenar .img .img2:hover{
+    transform: scale(1.05);
+}
+.Chefs .contenar .img .img3:hover{
+    transform: scale(1.05);
+}
+
+.Chefs .contenar .img .img3 .link,
+.Chefs .contenar .img .img2 .link,
+.Chefs .contenar .img .img1 .link {
+    background-color: #ffffff83;
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    text-align: center;
+    transition:right 1s .5s ease-out;
+
+}
+
+.Chefs .contenar .img .img3 .link ul li,
+.Chefs .contenar .img .img2 .link ul li,
+.Chefs .contenar .img .img1 .link ul li{
+    padding: 5px 0px;
+    font-size: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Chefs .contenar .img .img1:hover .link{
+    right: 0px;
+}
+.Chefs .contenar .img .img2:hover .link{
+    right: 0px;
+}
+.Chefs .contenar .img .img3:hover .link{
+    right: 0px;
+}
+
+
+.Chefs .contenar .img img{
+    width: 400px;
+}
+.Chefs .contenar .img .link a{
+    color: #000000;
+}
+
+
+.Chefs .contenar .img3 .William h3,
+.Chefs .contenar .img2 .Sarah h3,
+.Chefs .contenar .img1 .Walter h3 {
+    font-size: 19;
+    padding-top: 10px; 
+    color: #fff;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+}
+
+.Chefs .contenar .img2 .Sarah p,
+.Chefs .contenar .img1 .Walter p{
+    font-size: 16px;
+    padding: 50px 0px;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+}
+.Chefs .contenar .img3 .William p{
+    font-size: 16px;
+    padding: 25px 0px;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+}
+/* ======================= */
+/* ======================= */
+.Gallery{
+    background-color: #000000;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 90px 0px 0px 0px;
+}
+.Gallery .contenar{
+    width: 100%;
+    margin: auto;
+}
+
+.Gallery .contenar .descrption {
+    width: 100%;
+    text-align: center;
+}
+
+.Gallery .contenar .descrption h4{
+    font-size: 14px ;
+    color: #37373f;
+}
+.Gallery .contenar .descrption p{
+    font-size: 55px;
+    color: #ffffff;
+    padding: 20px 0px 50px 0px;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+}
+.Gallery .contenar .descrption p span{
+    color: #c17e1f;
+}
+
+.Gallery .contenar .img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* ==========img1 ========= */
+.Gallery .contenar .img .img1 img{
+    width: 100%;
+    display: block;
+}
+.Gallery .contenar .img .img1{
+    position: relative;
+    width:300px;
+    overflow: hidden;
+    border: solid 3px white;
+    align-self: flex-start;
+
+    
+}
+
+.Gallery .contenar .img .img1 .back{
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top .2s;
+    text-align: center;
+    color: #fff;
+}
+.Gallery .contenar .img .img1 .back p,
+.Gallery .contenar .img .img1 .back h3{
+position: relative;
+top: 50%;
+}
+
+.Gallery .contenar .img .img1:hover .back{
+    top: 0px;
+}
+
+/* ===== img2 ===== */
+
+.Gallery .contenar .img .img2 img{
+width: 100%;
+    display: block;
+}
+.Gallery .contenar .img .img2{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    border: solid 3px white;
+    align-self: center;
+    bottom: 200px;
+}
+
+.Gallery .contenar .img .img2 .back{
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top .2s;
+    text-align: center;
+    color: #fff;
+}
+.Gallery .contenar .img .img2 .back p,
+.Gallery .contenar .img .img2 .back h3{
+position: relative;
+top: 50%;
+}
+
+.Gallery .contenar .img .img2:hover .back{
+    top: 0px;
+}
+
+/* img3 */
+
+.Gallery .contenar .img .img3 img{
+    width: 100%;
+    display: block;
+}
+.Gallery .contenar .img .img3{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: solid 3px white;
+    align-self: flex-end;
+    bottom: 700px;
+}
+
+.Gallery .contenar .img .img3 .back{
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top .2s;
+    text-align: center;
+    color: #fff;
+}
+.Gallery .contenar .img .img3 .back p,
+.Gallery .contenar .img .img3 .back h3{
+position: relative;
+top: 50%;
+}
+
+.Gallery .contenar .img .img3:hover .back{
+    top: 0px;
+}
+
+/* ======= img4 ========== */
+
+.Gallery .contenar .img .img4 img{
+   width: 100%;
+    display: block;
+}
+.Gallery .contenar .img .img4{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    border: solid 3px white;
+    align-self: auto;
+    align-self: flex-start;
+    bottom: 680px;
+}
+
+.Gallery .contenar .img .img4 .back{
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top .2s;
+    text-align: center;
+    color: #fff;
+}
+.Gallery .contenar .img .img4 .back p,
+.Gallery .contenar .img .img4 .back h3{
+position: relative;
+top: 50%;
+}
+
+.Gallery .contenar .img .img4:hover .back{
+    top: 0px;
+}
+/* =========== img5 ============= */
+.Gallery .contenar .img .img5 img{
+    width: 100%;
+    display: block;
+}
+.Gallery .contenar .img .img5{
+    position: relative;
+    width: 300px ;
+    height: 200px;
+    overflow: hidden;
+    border: solid 3px white;
+    order: 7;
+    align-self: end;
+    bottom: 1100px;
+
+}
+
+.Gallery .contenar .img .img5 .back{
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top .2s;
+    text-align: center;
+    color: #fff;
+}
+.Gallery .contenar .img .img5 .back p,
+.Gallery .contenar .img .img5 .back h3{
+position: relative;
+top: 50%;
+}
+
+.Gallery .contenar .img .img5:hover .back{
+    top: 0px;
+}
+/* ======== img6 ======== */
+
+.Gallery .contenar .img .img6 img{
+    width: 100%;
+    display: block;
+}
+.Gallery .contenar .img .img6{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: solid 3px white;
+    order: 7;
+    align-self: end;
+    bottom: 1630px;
+}
+
+.Gallery .contenar .img .img6 .back{
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top .2s;
+    text-align: center;
+    color: #fff;
+}
+.Gallery .contenar .img .img6 .back p,
+.Gallery .contenar .img .img6 .back h3{
+position: relative;
+top: 50%;
+}
+
+.Gallery .contenar .img .img6:hover .back{
+    top: 0px;
+}
+/* ======== img7 ========= */
+.Gallery .contenar .img .img7 img{
+    width: 100%;
+    display: block;
+}
+.Gallery .contenar .img .img7{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: solid 3px white;
+    align-self: flex-start;
+    align-self:center;
+    bottom: 829px;
+}
+
+.Gallery .contenar .img .img7 .back{
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top .2s;
+    text-align: center;
+    color: #fff;
+}
+.Gallery .contenar .img .img7 .back p,
+.Gallery .contenar .img .img7 .back h3{
+position: relative;
+top: 50%;
+}
+
+.Gallery .contenar .img .img7:hover .back{
+    top: 0px;
+}
+
+/* ============================= */
+
+.Contact{
+    width: 100%;
+    position: relative;
+    bottom:1150px;
+    background-color: #252525;
+    padding-top: 50px;
+    color: #ffffff;
+    
+
+}
+
+.Contact .contenar{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.Contact .contenar .descrption h4{
+    font-size: 14px;
+    color: #ffffff;
+}
+.Contact .contenar .descrption p{
+    font-size: 55px;
+    color: #ffffff;
+    padding: 20px 0px 70px 0px;
+}
+.Contact .contenar .descrption p span{
+    color: #c17e1f;
+}
+.Contact .contenar .map iframe{
+    width: 100%;
+    height: 350px;
+}
+
+.Contact .contenar .details{
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Contact .contenar .details .Opening,
+.Contact .contenar .details .call,
+.Contact .contenar .details .email,
+.Contact .contenar .details .address{
+    width: 45%;
+}
+
+.Contact .contenar .details .address{
+    background-color: #000000;
+    padding: 20px 0px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 10px 0px;
+
+}
+.Contact .contenar .details .address .icon{
+    width: 20%;
+    display: flex;
+    padding-left: 10px;
+}
+
+
+.Contact .contenar .details .address .icon i{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #c17e1f;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+    margin-right:10px ;
+    color: #000000
+}
+
+
+
+
+
+
+.Contact .contenar .details .email{
+    background-color: #000000;
+    padding: 20px 0px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 10px 0px;
+
+}
+.Contact .contenar .details .email .icon{
+    width: 20%;
+    display: flex;
+    padding-left: 10px;
+}
+
+
+.Contact .contenar .details .email .icon i{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #c17e1f;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+    margin-right:10px ;
+    color: #000000;
+}
+
+/* ===== */
+
+.Contact .contenar .details .call{
+    background-color: #000000;
+    padding: 20px 0px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+
+}
+.Contact .contenar .details .call .icon{
+    width: 20%;
+    display: flex;
+    padding-left: 10px;
+}
+
+
+.Contact .contenar .details .call .icon i{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #c17e1f;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+    margin-right:10px ;
+    color: #000000;
+}
+
+/* ========== */
+.Contact .contenar .details .Opening{
+    background-color: #000000;
+    padding: 20px 0px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+
+}
+.Contact .contenar .details .Opening .icon{
+    width: 20%;
+    display: flex;
+    padding-left: 10px;
+}
+
+.Contact .contenar .details .Opening .icon i{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #c17e1f;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+    margin-right:10px ;
+    color: #000000;
+}
+
+
+section .form {
+    width: 100%;
+    padding: 50px 0px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 1.875rem #00000014;
+}
+
+
+
+.form .email,
+.form .name{
+    width: 45%;
+    height: 45px;
+    border: solid 1.5px #a94442;
+    border-radius: 5px;
+
+}
+.form .name{
+    margin-right: 100px;
+}
+
+.form .Subject {
+    width: 100%;
+    height: 45px;
+    border: solid 1.5px #a94442;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+
+} 
+.form textarea {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    border: solid 1.5px #a94442;
+    border-radius: 5px;
+    
+} 
+
+section .form  .button {
+    background-color: #c17e1f;
+    padding: 15px 20px;
+    position: relative;
+    width: 150px;
+    top: 50px;
+    border-radius: 15px;
+    display: flex;
+    left: 45%;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+section .form  .button a{
+    color: #fff;
+}
+/* ============================= */
+footer{
+    background-image: url(../img/textured-metal-background.jpg);
+    position: relative;
+    bottom: 1150px;
+}
+footer .about img{
+    width:3%;
+}
+footer .contenar {
+    width: 90%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+/* ====== about ====== */
+
+footer .contenar .about{
+    width: 30%;
+    color: #fff;
+    margin: 0px 5px;
+}
+footer .contenar .about .logo{
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+footer .contenar .about .logo img{
+    width: 10%;
+}
+footer .contenar .about .logo h2{
+    width: 50%;
+}
+
+footer .contenar .about p{
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+footer .contenar .about h3{
+    width: 100%;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+position: relative;
+}
+
+footer .contenar .about h3::before{
+    content: "";
+    width: 350px;
+    border-bottom: solid 3px #ffffff;
+    position: absolute;
+    right:50px;
+    top: 50px;
+}
+footer .contenar .about ul{
+    width: 100%;
+    display: flex;
+    padding: 50px 50px;
+}
+footer .contenar .about ul li{
+    font-size: 20px;
+    padding: 0px  20px;
+}
+
+/* ======================= */
+
+footer .contenar .subscription{
+    width: 40%;
+    color: #fff;
+    margin: 0px 5px;
+}
+footer .contenar .subscription .subscription-box h3{
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Patua One', cursive;
+}
+
+footer .contenar .subscription .subscription-box p{
+    font-size: 16px;
+    width: 100%;
+    padding: 20px 20px 20px 0px;
+}
+footer .contenar .subscription .subscription-box .send{
+    width: 100%;
+}
+footer .contenar .subscription .subscription-box .send input{
+    width: 80%;
+    height: 50px;
+}
+footer .contenar .subscription .subscription-box .send button{
+    width: 18%;
+    height: 50px;
+    background-color: #c17e1f;
+    color: #fff;
+}
+
+footer .contenar .subscription .link{
+width: 100%;
+    padding: 10px 0px;
+}
+
+footer .contenar .subscription .link ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px  0px;
+}
+
+footer .contenar .subscription .link ul li{
+    width: 50%;
+    padding:5px 0px;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+transition: all .2s;
+
+font-size: 16px;
+}
+footer .contenar .subscription .link ul li a{
+    transition: all .2s;
+    font-size: 16px;
+}
+
+footer .contenar .subscription .link ul li:hover{
+    background-color: #c17e1f;
+    font-size: 17px;
+    width: 50%;
+}
+/* ================== */
+footer .contenar .contact-details{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: #fff;
+}
+footer .contenar .contact-details h3{
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+padding-bottom:20px;
+}
+footer .contenar .contact-details ul li{
+    padding: 10px 0px 10px 10px;
+}
+footer .contenar .contact-details ul li i{
+    color: gold;
+    padding-right: 5px;
+}
